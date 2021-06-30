@@ -255,7 +255,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 350px;
-  gap: 20px;
+  margin: 0 2rem;
+  gap: 1rem;
 }
 
 .contenedorProductos__card {
@@ -343,14 +344,19 @@ fieldset label {
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 0px 10px 30px #000000;
+  place-items: center;
 }
 
 #formulario :hover {
   background-color: rgb(248, 255, 255);
 }
 
+#formulario select{
+  display: inline;
+}
+
 #formulario h4 {
-  display: inline-block;
+  display: block;
   align-content: center;
   align-items: center;
   margin: 1rem;
@@ -367,6 +373,7 @@ fieldset label {
 }
 
 #formulario input {
+  display: inline;
   width: 20vw;
   height: 2rem;
   border-radius: 10px;
@@ -385,6 +392,7 @@ fieldset label {
 #formulario input.checkBox {
   width: 25px;
   transition: 0.1s;
+  margin-right: 5rem;
 }
 
 #formulario input.checkBox:hover {
@@ -556,10 +564,8 @@ input.botonBoletin:hover {
   grid-auto-flow: dense;
   gap: 0.5rem;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  place-items: center;
+  gap: 2rem;
   /*
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 50% 50%;
