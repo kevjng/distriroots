@@ -131,11 +131,11 @@ body {
 }
 
 .login__logo:hover {
-  scale: 90%;
+  transform: scale(90%);
 }
 
 .carrito__logo:hover {
-  scale: 90%;
+  transform: scale(90%);
 }
 
 .backGinfo {
