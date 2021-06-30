@@ -301,11 +301,11 @@ body {
 }
 
 .facebook:hover {
-  scale: 80%;
+  transform: scale(85%)
 }
 
 .instagram:hover {
-  scale: 80%;
+  transform: scale(85%)
 }
 
 .contenedorFormularioContacto {
