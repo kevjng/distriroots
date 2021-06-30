@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>DistriRoots - Home</title>
+</head>
+
+<!-- Cuerpo de la pagina -->
+
+<body>
+	<div class="contenedorPp">
+		<header>
+			<!-- MENU -->
+			<nav class="navBar">
+				<ul class="nav-list">
+					<li class="list-item"><a href="index.html">HOME</a></li>
+					<li class="list-item"><a href="pages/productos.html">PRODUCTOS</a></li>
+					<li class="list-item"><a href="pages/envios.html">ENVIOS</a></li>
+					<li class="list-item"><a href="pages/sobreNosotros.html">SOBRE NOSOTROS</a></li>
+					<li class="list-item"><a href="#formulario">CONTACTO</a></li>
+				</ul>
+			</nav>
+
+			<!-- LOGO -->
+
+			<div class="navBar_2">
+				<a href="index.html"><img class="logo" src="img/logo.png" alt="LOGO DistriRoots"><span></span></a>
+
+				<!-- Barra de busqueda -->
+
+				<div class="field" id="searchform">
+					<input type="text" class="searchterm" placeholder="¿Que buscás?" />
+					<button type="button" class="search">Buscar</button>
+				</div>
+				<div class="login">
+					<a href="#"><img class="login__logo" src="img/login.png" alt="Iniciar Sesion"></a>
+				</div>
+				<div class="carrito">
+					<a href="#"><img class="carrito__logo" src="img/carrito.png" alt="Carrito de comrpas"></a>
+				</div>
+			</div>
+		</header>
+
+		<!--BANNER PRINCIPAL-->
+
+		<main id="mainHome">
+			<div class="tabla_grid">
+				<div class="tabla__In">
+					<div class="backGinfo">
+
+						<h2>Conoce nuestro Starter KIT</h2>
+						<h3>Neptune's Harvest</h3>
+						<h4>Los mejores nutrientes para el crecimiento de tu cultivo.</h4>
+
+						<input type="submit" name="vermas" value="VER LINEA COMPLETA">
+					</div>
+				</div>
+				<div>
+					<img src="img/CARROUSEL3.png" alt="Starter KIT">
+				</div>
+			</div>
+
+			<!--SECCION CATEGORIAS PRODUCTOS-->
+
+			<main id="mainTEXT">
+				<h3>NUESTROS PRODUCTOS</h3>
+				<h4>La mejor variedad y calidad en productos para el cultivo del mercado.
+				</h4>
+			</main>
+
+			<div class="contenedorProductos_INDEX">
+				<div class="contenedorProductos__card">
+					<p>FERTILIZANTES</p>
+					<a href="fertilizantes.html"><img src="img/fertilizantes.jpg" alt="Producto1"></a>
+					<p>Amplio surtido en fertilizantes convencionales y orgánicos.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>SUSTRATOS</p>
+					<a href="sustratos.html"><img src="img/sustrato.jpg" alt="Producto1"></a>
+					<p>Tierra, sustratos, mejoradores de sustrato y mucho más.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>MACETAS</p>
+					<a href="macetas.html"><img src="img/macetas.jpg" alt="Producto1"></a>
+					<p>Macetas plasticas, colgantes, jardineras, variedad de colores, y modelos.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>ILUMINACION</p>
+					<a href="iluminacion.html"><img src="img/iluminacion.gif" alt="Producto1"></a>
+					<p>Iluminación para cultivo en interiores. Luminarias LED y convencionales.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>CARPAS</p>
+					<a href="carpas.html"><img src="img/carpas.jpg" alt="Carpas"></a>
+					<p>Carpas para cultivo indoor en diferentes tamaños.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>NUTRIENTES</p>
+					<a href="nutrientes.html"><img src="img/nutrientes.jpg" alt="Nutrientes"></a>
+					<p>Micronutrientes y Macronutrientes para tus cultivos.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>PARAFERNALIA</p>
+					<a href="parafernalia.html"><img src="img/parafernalia.jpg" alt="Parafernalia"></a>
+					<p>Variedad de accesorios y articulos de calidad.</p>
+				</div>
+
+				<div class="contenedorProductos__card">
+					<p>ILUMINACION</p>
+					<a href="iluminacion.html"><img src="img/iluminacion.gif" alt="Producto1"></a>
+					<p>Iluminación para cultivo en interiores. Luminarias LED y convencionales.</p>
+				</div>
+
+			</div>
+
+			<!--SECCION FORMULARIO DE CONTACTO-->
+
+			<div class="contenedorFormularioContacto">
+				<form id="formulario" class="formulario" action="enviar.php" method="POST"
+					enctype="multipart/form-data">
+					<fieldset>
+
+						<p>Contáctanos</p>
+
+						<div class="facebook"><a href="https://www.facebook.com/DistriRoots" target="_blank">
+								<img src="img/facebook.png" alt="Facebook DistriRoots">
+							</a>
+						</div>
+						<div class="instagram"><a href="https://www.instagram.com/distriroots/" target="_blank">
+								<img src="img/instagram.png" alt="Instagram DistriRoots">
+							</a>
+						</div>
+
+						<label for="nombreyapellido">Nombre y Apellido:</label>
+						<input type="text" name="nombreyapellido" maxlength="50">
+
+						<label for="nrocelular">Numero de celular:</label>
+						<input type="number" name="nrocelular" pattern="10">
+
+						<h4>Tipo de Negocio:</h4>
+
+						<select name="tipodenegocio">
+							<option value="distribuidora">Distribuidora</option>
+							<option value="mayorista">Mayorista</option>
+							<option value="minorista">Minorista</option>
+						</select>
+
+						<p>Mensaje:</p>
+
+						<textarea maxlength="350">  Motivo del contacto:</textarea>
+
+						<div class="grid_ACEPTO">
+							<h4>Acepto Términos y Condiciones</h4>
+
+							<input type="checkbox" name="terminosycondiciones" value="1" class="checkBox">
+
+						</div>
+
+						<input type="reset" value="Limpiar" class="boton">
+						<input type="submit" value="Enviar" class="boton">
+
+					</fieldset>
+				</form>
+			</div>
+		</main>
+
+		<!-- Pie de pagina -->
+		
+		<footer class="footer_grid">
+			<section class="avisosLegales"><b>AVISOS LEGALES</b>
+				<ul>
+					<li>Aviso Legal</li>
+					<li>Política de Privacidad</li>
+					<li>Protección Datos Personales</li>
+					<li>Condiciones de uso</li>
+					<li>Envíos y devoluciones</li>
+					<li>Pago seguro</li>
+				</ul>
+			</section>
+
+			<section class="contactanos"><b>CONTACTANOS</b>
+				<ul>
+					<li>Ubicación: Artigas 5325, CABA (Paternal), Arg.</li>
+					<li>WhatsApp: 1158827053</li>
+					<li>Correo: distriroots@gmail.com</li>
+				</ul>
+				<div class="mapouter">
+					<div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+							marginheight="0" marginwidth="0"
+							src="https://maps.google.com/maps?width=150&amp;height=100&amp;hl=en&amp;q=Gral. José Gervasio Artigas 5325&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+							href="https://www.fridaynightfunkin.net/">Friday Night Funkin PC</a></div>
+					<style>
+						.mapouter {
+							position: relative;
+							text-align: right;
+							width: 100%;
+							height: 100px;
+						}
+
+						.gmap_canvas {
+							overflow: hidden;
+							background: none !important;
+							width: 100%;
+							height: 100px;
+						}
+
+						.gmap_iframe {
+							height: 100px !important;
+						}
+					</style>
+				</div>
+			</section>
+			<section class="boletin"><b>BOLETÍN</b>
+				<p>Suscríbase a nuestro boletín y reciba las últimas ofertas, descuentos y nuevos ingresos</p>
+				<label for="mail">Mail:</label>
+				<input type="text" name="mail" maxlength="50" class="texareaBoletin">
+				<input type="submit" name="submit" value="OK" class="botonBoletin">
+			</section>
+		</footer>
+		<div class="Copyright">
+			<p>Copyright © 2021 DistriRoots - Todos los derechos Reservados</p>
+		</div>
+	</div>
+</body>
+
+</html>
