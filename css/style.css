@@ -6,14 +6,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
-/*-------MEDIAS Queries-------*/
-
 /*-------CSS RESET-------*/
 
 * {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+}
+
+/*------- CSS BOOSTRAP PERSONALIZADO -------*/
+
+.navbar {
+  background-color: #0d3c38;
 }
 
 /*-------CSS GENERAL-------*/
@@ -49,6 +53,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   font-size: 14px;
+  height: 60px;
 }
 .nav-list {
   list-style-type: none;
@@ -138,11 +143,54 @@ body {
   transform: scale(90%);
 }
 
+.d-block {
+  height: 450px;
+}
+
+.carousel-caption {
+  bottom: 0;
+}
+
 .backGinfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
   opacity: 100%;
+  color: #fff;
+  text-align: left;
+  width: 30rem;
+  place-content: top;
+}
+
+.backGinfo .texto {
+  width: 400px;
+}
+
+.backGinfo .img {
+}
+
+.backGinfo h2 {
+  color: rgb(255, 106, 0);
+  font-size: 3vw;
+  text-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+.backGinfo h3 {
+  color: rgb(134, 255, 205);
+  margin-top: 1rem;
+  font-size: 2vw;
+  text-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+.backGinfo h4 {
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.5vw;
+  text-shadow: 0px 3px 3px rgb(0, 0, 0);
 }
 
 .backGinfo input {
+  font-size: 0.5vw;
   padding: 10px;
   border-radius: 5px;
   transition: 0.1s;
@@ -301,11 +349,11 @@ body {
 }
 
 .facebook:hover {
-  transform: scale(85%)
+  transform: scale(85%);
 }
 
 .instagram:hover {
-  transform: scale(85%)
+  transform: scale(85%);
 }
 
 .contenedorFormularioContacto {
@@ -351,7 +399,7 @@ fieldset label {
   background-color: rgb(248, 255, 255);
 }
 
-#formulario select{
+#formulario select {
   display: inline;
 }
 
@@ -677,4 +725,39 @@ input.botonBoletin:hover {
 
 .aside h3 {
   margin-top: 15px;
+}
+
+/*-------MEDIAS Queries-------*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to bottom, #f1117a, #4cbe00);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (max-width: 601px) {
+  .contenedorPp {
+    font-size: 14px;
+  }
+
+  .navBar_2 {
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
