@@ -14,7 +14,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/*------- CSS BOOSTRAP PERSONALIZADO -------*/
+/*------ CSS BOOSTRAP PERSONALIZADO ------*/
 
 .navbar {
   background-color: #0d3c38;
@@ -171,26 +171,26 @@ body {
 
 .backGinfo h2 {
   color: rgb(255, 106, 0);
-  font-size: 3vw;
+  font-size: 3rem;
   text-shadow: 0px 3px 3px rgb(0, 0, 0);
 }
 
 .backGinfo h3 {
   color: rgb(134, 255, 205);
   margin-top: 1rem;
-  font-size: 2vw;
+  font-size: 2rem;
   text-shadow: 0px 3px 3px rgb(0, 0, 0);
 }
 
 .backGinfo h4 {
   color: white;
   margin-top: 2rem;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   text-shadow: 0px 3px 3px rgb(0, 0, 0);
 }
 
 .backGinfo input {
-  font-size: 0.5vw;
+  font-size: 0.5rem;
   padding: 10px;
   border-radius: 5px;
   transition: 0.1s;
@@ -318,10 +318,15 @@ body {
   transition: all 0.2s;
 }
 
+.contenedorProductos__card p.contenedorProductos__card__titulo {
+  font-size: 24px;
+  margin: 15px 0px;
+}
+
 .contenedorProductos__card p {
-  font-size: 14px;
-  padding: 15px;
-  align-content: center;
+  font-size: 12px;
+  margin: 10px 10px;
+  text-align: center;
 }
 
 .contenedorProductos__card img {
@@ -384,6 +389,11 @@ fieldset p {
 fieldset label {
   margin: 2rem 0 0 0;
   display: block;
+}
+
+fieldset h4 {
+  font-size: 1rem;
+  text-align: center;
 }
 
 #formulario {
@@ -461,21 +471,22 @@ fieldset input.boton:hover {
 
 #mainTEXT {
   text-align: center;
-  margin: 1vh 0;
+  margin: 1rem;
 }
 
 #mainTEXT h3 {
   text-align: center;
-  padding: 5vh;
+  padding: 5rem;
   font-size: 60px;
   font-family: "Quicksand", sans-serif;
 }
 
 #mainTEXT h4 {
-  font-size: 18px;
-  padding: 5vh;
+  font-size: 25px;
+  padding: 1rem;
   line-height: 3;
   justify-content: center;
+  text-align: center;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -527,9 +538,9 @@ fieldset input.boton:hover {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 4rem 0 25rem 0;
+  padding: 8rem 0 25rem 0;
   background-image: url(../img/grassy.png);
   background-size: cover;
 }
@@ -539,8 +550,7 @@ fieldset input.boton:hover {
 }
 
 .avisosLegales {
-  padding: 1.5rem;
-  width: 15vw;
+  width: 250px;
   height: 15vh;
   list-style-position: inside;
 }
@@ -550,22 +560,28 @@ fieldset input.boton:hover {
   font-size: 0.7rem;
 }
 
+.footer_grid section ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
 .contactanos {
-  margin: 1.5rem;
-  width: 15vw;
+  width: 250px;
   height: 15vh;
   list-style-position: inside;
 }
 
 .contactanos li {
-  margin: 1rem 0;
+  margin: 1rem 0rem;
   font-size: 0.7rem;
 }
 
 .boletin {
-  margin: 1.5rem;
-  width: 15vw;
+  width: 250px;
   height: 15vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .boletin p {
@@ -575,8 +591,8 @@ fieldset input.boton:hover {
 
 input.texareaBoletin {
   margin: 1rem;
-  width: 8vw;
-  height: 3vh;
+  width: 8rem;
+  height: 1.5rem;
   font-size: 10px;
 }
 
@@ -597,12 +613,13 @@ input.botonBoletin:hover {
 }
 
 .Copyright {
+  display: flex;
   background-color: rgb(40, 18, 18);
-  width: 100%;
   color: white;
-  text-align: center;
   padding: 10px;
   font-size: small;
+  justify-content: center;
+  align-items: center;
 }
 
 /*PAGINA PRODUCTOS CON GRID*/
@@ -614,6 +631,7 @@ input.botonBoletin:hover {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
   place-items: center;
   gap: 2rem;
+  margin-top: 80px;
   /*
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 50% 50%;
@@ -631,6 +649,8 @@ input.botonBoletin:hover {
   align-self: center;
   justify-self: center;
 }
+
+/*PAGINA SOBRE NOSOTROS CON GRID*/
 
 .container_sobreNosotros {
   display: grid;
@@ -731,33 +751,262 @@ input.botonBoletin:hover {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: linear-gradient(to bottom, #f1117a, #4cbe00);
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 534px) {
   .contenedorPp {
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: 0px;
+  }
+
+  #mainTEXT h3 {
+    margin: 3rem 0;
+    padding: 0;
+    font-size: 3.5rem;
+  }
+
+  #mainTEXT h4 {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+
+  .contenedorProductos_INDEX {
+    padding-top: 1rem;
+  }
+
+  .contenedorProductos__card {
+    background-color: rgb(24, 24, 24);
+    width: 21rem;
+  }
+
+  .contenedorProductos__card p {
     font-size: 14px;
   }
 
-  .navBar_2 {
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
+
+  .contenedorFormularioContacto {
+  }
+
+  fieldset {
+    width: 85vw;
+    border-radius: 20px;
+  }
+
+  fieldset p {
+    font-family: "Indie Flower", sans-serif;
+    font-size: 3rem;
+  }
+
+  fieldset h4 {
+    font-size: 1rem;
+  }
+
+  fieldset label {
+    margin: 2rem 0 0 0;
+  }
+
+  #formulario {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #formulario textarea {
+    width: 80vw;
+    height: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  #formulario input {
+    width: 80vw;
+    height: 2rem;
+    margin: 0;
+  }
+
+  #formulario input.checkBox {
+    width: 1rem;
+    transition: 0.1s;
+    margin-right: 5rem;
+  }
+
+  .footer_grid {
+    background-color: #edf5f9;
+    display: block;
+    align-items: center;
+  }
+
+  .footer_grid section {
+    padding: 0;
+    margin: auto;
+    display: inline;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .footer_grid section ul,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer_grid b {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contactanos {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+  }
+
+  .boletin {
+    display: inline;
+    margin: auto;
+  }
+
+  input.texareaBoletin {
+    margin: 0rem 1rem;
+    width: 15rem;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 800px) {
+  .contenedorPp {
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: 0px;
+  }
+
+  .footer_grid {
+    background-color: #edf5f9;
+    display: block;
+    align-items: center;
+  }
+
+  .footer_grid section {
+    padding: 0;
+    margin: auto;
+    display: inline;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .footer_grid section ul,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer_grid b {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contactanos {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .boletin {
+    display: inline;
+    text-align: center;
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input.texareaBoletin {
+    margin: 0rem 1rem;
+    width: 15rem;
+  }
+
+  .contenedorFormularioContacto {
+  }
+
+  fieldset {
+    width: 85vw;
+    border-radius: 20px;
+  }
+
+  fieldset p {
+    font-family: "Indie Flower", sans-serif;
+    font-size: 3rem;
+  }
+
+  fieldset h4 {
+    font-size: 1rem;
+  }
+
+  fieldset label {
+    margin: 2rem 0 0 0;
+  }
+
+  #formulario {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #formulario textarea {
+    width: 65vw;
+    height: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  #formulario input {
+    width: 65vw;
+    height: 2rem;
+    margin: 0;
+  }
+
+  #formulario input.checkBox {
+    width: 1rem;
+    transition: 0.1s;
+    margin-right: 5rem;
+  }
+
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
 }
