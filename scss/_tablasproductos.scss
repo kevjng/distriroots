@@ -1,0 +1,33 @@
+/*ESTE CSS PERTENECE A LAS TABLAS DE LOS PRODUCTOS*/
+
+.tablaprod {
+  margin-top: 20px;
+  border: 1px solid;
+  background-color: #001f16;
+}
+
+.thclass {
+  background-color: rgb(0, 63, 44);
+  border: rgb(39, 177, 112) 1px solid;
+  color: white;
+}
+
+.tdclass {
+  background-color: rgb(158, 197, 158);
+  border: green 1px solid;
+}
+
+.aside {
+  background-color: rgb(255, 184, 9);
+  display: inline-block;
+  border: 1px solid black;
+  width: 14rem;
+  height: 23rem;
+  border-radius: 40px;
+  font-size: 14px;
+  text-align: center;
+ 
+  h3 {
+  margin-top: 15px;
+ }
+}

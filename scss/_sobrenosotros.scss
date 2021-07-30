@@ -1,0 +1,70 @@
+/*PAGINA SOBRE NOSOTROS CON GRID*/
+
+#sobreNosotros {
+  background-color: whitesmoke;
+  text-align: center;
+
+  h3 {
+    text-align: center;
+    margin: 5vh 0;
+    font-size: 60px;
+    font-family: "Quicksand", sans-serif;
+  }
+  h4 {
+    font-size: 1rem;
+    margin: 5vh 0;
+    line-height: 3;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+  }
+}
+
+.cuadradito {
+  background-color: #f0dfcd;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  color: white;
+
+  img {
+    width: 10rem;
+    margin: 1rem;
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    background-color: rgb(89, 87, 57);
+    color: #ffffff;
+  }
+}
+
+.cuadradito1 {
+  background-color: #181818;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  color: white;
+
+  img {
+    width: 8rem;
+    margin: 1rem;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

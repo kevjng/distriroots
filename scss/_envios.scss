@@ -1,0 +1,75 @@
+.tabla_grid_Envios {
+  place-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 250px 250px;
+  background-image: url(../img/envios.jpg);
+  background-size: 90%;
+}
+
+.tabla_grid_Envios1 {
+  place-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 250px 250px;
+  background-image: url(../img/envios1.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: #ffffff77;
+}
+
+.tabla_grid img {
+  width: 80%;
+}
+
+.tabla__In {
+  color: #afa3a3;
+  padding-left: 1rem;
+
+  h2 {
+    margin-top: 3rem;
+    color: rgb(0, 255, 98);
+    font-size: 3.5rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+  h3 {
+    margin-top: 5rem;
+    color: rgb(134, 255, 205);
+    font-size: 2.5rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+  h4 {
+    margin-top: 1rem;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+  input {
+    color: black;
+    margin-top: 2vh;
+    display: flex;
+    float: left;
+  }
+}
+
+.tabla__In1 {
+  h2 {
+    margin-top: 5rem;
+    color: rgb(170, 0, 0);
+    font-size: 3.5rem;
+    width: 3rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+  h3 {
+    color: rgb(143, 0, 88);
+    margin-top: 15rem;
+    font-size: 2.5rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+  h4 {
+    margin-top: 4rem;
+    color: rgb(0, 195, 255);
+    font-size: 2rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+}

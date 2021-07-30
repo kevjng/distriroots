@@ -1,0 +1,37 @@
+#mainHome {
+  background-color: whitesmoke;
+}
+
+#mainTEXT {
+  text-align: center;
+  margin: 1rem;
+
+  h3 {
+    text-align: center;
+    padding: 5rem;
+    font-size: 60px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  h4 {
+    font-size: 25px;
+    padding: 1rem;
+    line-height: 3;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+  }
+}
+
+.contenedorPp {
+  background-color: whitesmoke;
+  margin: 0.5% 14%;
+  overflow: hidden;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 10px 50px #000000;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #f13311, #4cbe00);
+}
+

@@ -1,0 +1,265 @@
+/*-------MEDIAS Queries-------*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 534px) {
+  .contenedorPp {
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: 0px;
+  }
+
+  #mainTEXT {
+    h3 {
+      margin: 3rem 0;
+      padding: 0;
+      font-size: 3.5rem;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+  }
+
+  .contenedorProductos_INDEX {
+    padding-top: 1rem;
+  }
+
+  .contenedorProductos__card {
+    background-color: rgb(24, 24, 24);
+    width: 21rem;
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .contenedorProductos__card .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
+
+  .contenedorFormularioContacto {
+  }
+
+  fieldset {
+    width: 85vw;
+    border-radius: 20px;
+  }
+
+  fieldset p {
+    font-family: "Indie Flower", sans-serif;
+    font-size: 3rem;
+  }
+
+  fieldset h4 {
+    font-size: 1rem;
+  }
+
+  fieldset label {
+    margin: 2rem 0 0 0;
+  }
+
+  #formulario {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #formulario textarea {
+    width: 80vw;
+    height: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  #formulario input {
+    width: 80vw;
+    height: 2rem;
+    margin: 0;
+  }
+
+  #formulario input.checkBox {
+    width: 1rem;
+    transition: 0.1s;
+    margin-right: 5rem;
+  }
+
+  .footer_grid {
+    background-color: #edf5f9;
+    display: block;
+    align-items: center;
+  }
+
+  .footer_grid section {
+    padding: 0;
+    margin: auto;
+    display: inline;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .footer_grid section ul,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer_grid b {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contactanos {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+  }
+
+  .boletin {
+    display: inline;
+    margin: auto;
+  }
+
+  input.texareaBoletin {
+    margin: 0rem 1rem;
+    width: 15rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 800px) {
+  .contenedorPp {
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: 0px;
+  }
+
+  .footer_grid {
+    background-color: #edf5f9;
+    display: block;
+    align-items: center;
+  }
+
+  .footer_grid section {
+    padding: 0;
+    margin: auto;
+    display: inline;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .footer_grid section ul,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer_grid b {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contactanos {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .boletin {
+    display: inline;
+    text-align: center;
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input.texareaBoletin {
+    margin: 0rem 1rem;
+    width: 15rem;
+  }
+
+  .contenedorFormularioContacto {
+  }
+
+  fieldset {
+    width: 85vw;
+    border-radius: 20px;
+  }
+
+  fieldset p {
+    font-family: "Indie Flower", sans-serif;
+    font-size: 3rem;
+  }
+
+  fieldset h4 {
+    font-size: 1rem;
+  }
+
+  fieldset label {
+    margin: 2rem 0 0 0;
+  }
+
+  #formulario {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #formulario textarea {
+    width: 65vw;
+    height: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  #formulario input {
+    width: 65vw;
+    height: 2rem;
+    margin: 0;
+  }
+
+  #formulario input.checkBox {
+    width: 1rem;
+    transition: 0.1s;
+    margin-right: 5rem;
+  }
+
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .contenedorProductos_INDEX {
+    padding: 4rem 0px;
+    margin: 0rem 0px;
+    background-position-y: 0px;
+    background-position-x: -500px;
+  }
+}

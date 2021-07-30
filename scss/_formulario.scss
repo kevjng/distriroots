@@ -1,0 +1,124 @@
+/*-------CSS DEL FORMULARIO DE CONTACTO-------*/
+
+.facebook {
+  display: inline-flex;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(75%);
+  }
+}
+
+.instagram {
+  display: inline-flex;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(75%);
+  }
+}
+
+.contenedorFormularioContacto {
+  background-color: whitesmoke;
+  padding-bottom: 3rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto;
+  background-image: url(../img/fondomain2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position-y: 225px;
+  -webkit-filter: grayscale(0%);
+}
+
+fieldset {
+  width: 30vw;
+  border-radius: 20px;
+
+  p {
+    font-family: "Indie Flower", sans-serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+
+  label {
+    margin: 2rem 0 0 0;
+    display: block;
+  }
+
+  h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+#formulario {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px #000000;
+  place-items: center;
+
+  &:hover {
+    background-color: rgb(248, 255, 255);
+  }
+  select {
+    display: inline;
+  }
+
+  h4 {
+    display: block;
+    align-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  textarea {
+    width: 28vw;
+    height: 15vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 1rem 0;
+    font-size: 12px;
+    transition: 0.5s;
+  }
+
+  input {
+    display: inline;
+    width: 20vw;
+    height: 2rem;
+    border-radius: 10px;
+    margin: 0.5rem 0rem;
+    transition: 0.1s;
+  }
+
+  input.checkBox {
+    width: 25px;
+    transition: 0.05s;
+    margin-right: 5rem;
+
+    &:hover {
+      transform: scale(80%);
+      cursor: pointer;
+    }
+  }
+
+  .grid_ACEPTO {
+    display: grid;
+    grid-template-columns: 80% 100px;
+    grid-template-rows: auto;
+    place-items: center;
+    text-align: center;
+  }
+
+  input.boton {
+    background-image: linear-gradient(to bottom, #e7f597, #ffe659);
+
+    &:hover {
+      background-image: linear-gradient(to top, #e4ff49, #c5c206);
+      color: #000000;
+      transform: scale(0.99);
+      cursor: pointer;
+    }
+  }
+}

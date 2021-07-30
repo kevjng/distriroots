@@ -1,0 +1,85 @@
+/*-------LOGO-------*/
+
+.logo {
+  width: 12rem;
+}
+
+/*-------LOGIN Y CARRITO-------*/
+
+.login__logo {
+  width: 3rem;
+  &:hover {
+    transform: scale(90%);
+  }
+}
+
+.carrito__logo {
+  width: 3rem;
+  &:hover {
+    transform: scale(90%);
+  }
+}
+
+/*-------MENU NAVBAR 1-------*/
+/*------ CSS BOOSTRAP PERSONALIZADO ------*/
+
+.navbar {
+  background-color: #0d3c38;
+}
+
+.backGinfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+  opacity: 100%;
+  color: #fff;
+  text-align: left;
+  width: 30rem;
+  place-content: top;
+
+  .texto {
+    width: 400px;
+  }
+
+  h2 {
+    color: rgb(255, 106, 0);
+    font-size: 3rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+
+  h3 {
+    color: rgb(134, 255, 205);
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+
+  h4 {
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+  }
+
+  input {
+    font-size: 0.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.1s;
+
+    &:hover {
+      background-image: linear-gradient(to left, #200122, #6f0000);
+      color: #ffffff;
+      scale: 96%;
+      cursor: pointer;
+    }
+  }
+}
+
+.d-block {
+  height: 450px;
+}
+
+.carousel-caption {
+  bottom: 0;
+}
